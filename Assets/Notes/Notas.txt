@@ -1,0 +1,4 @@
+A diferencia del otro menu que hice, en este se divide el canvas entre los que se mantienen estáticos contra los dinámicos (botones, fondos que se mueven, etc.) Ya que al tocar un objeto UI, manchas los demás objetos en el mismo canvas que éste.
+
+También se usa una extensión de tweening, LeanTween. En el anterior menú usamos el editor de animación de unity. Por lo que estuve viendo en internet esta forma no es la mejor ya que hace que el objeto UI esté regenerándose siempre, a diferencia de hacerlo con tweening que en mi caso lo hice mediante eventos de UI.
+
